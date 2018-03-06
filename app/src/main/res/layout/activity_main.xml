@@ -6,7 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context="com.example.aula7.menusborderbotton.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="@drawable/border_item"
+       android:padding="30dp"
+       android:layout_marginBottom="30dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Hola Mundo"/>
+   </LinearLayout>
+
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="5dp"
+       android:background="@color/colorPrimaryDark"/>
 
    <!--<Button
        android:layout_width="wrap_content"
@@ -28,11 +48,13 @@
        android:drawableLeft="@drawable/guardar"
        android:drawablePadding="5dp"/>-->
 
-   <android.support.design.widget.FloatingActionButton
+  <!-- <android.support.design.widget.FloatingActionButton
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_gravity="bottom|end"
        android:src="@drawable/mas"
-       android:layout_margin="16dp"/>
+       android:layout_margin="16dp"/>-->
+
+
 
 </android.support.design.widget.CoordinatorLayout>
