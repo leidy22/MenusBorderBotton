@@ -14,4 +14,18 @@
        android:text="Hola Mundo"
        android:theme="@style/RaisedButtonDark"/>
 
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/guardar"
+       android:theme="@style/RaisedButtonDark"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Hola Mundo"
+       android:theme="@style/RaisedButtonDark"
+       android:drawableLeft="@drawable/guardar"
+       android:drawablePadding="5dp"/>
+
 </LinearLayout>
